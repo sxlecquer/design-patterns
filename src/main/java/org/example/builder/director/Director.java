@@ -26,12 +26,12 @@ public class Director {
     }
 
     public void buildToyota(Builder builder) {
-        builder.carType(CarType.COUPE)
+        builder.carType(CarType.SEDAN)
                 .brand("Toyota")
                 .model("Matrix")
                 .seats(4)
                 .carColor(CarColor.WHITE)
-                .fuel(45.0)
-                .weight(2.3);
+                .weight(2.3)
+                .fuel(45.0);
     }
 }

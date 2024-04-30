@@ -28,8 +28,8 @@ public class CarManual {
         System.out.println("Model: " + model);
         System.out.println("Number of seats: " + seats);
         System.out.println("Car color: " + carColor);
-        System.out.println("Fuel: " + fuel);
-        System.out.println("Weight: " + weight);
+        System.out.println("Fuel: " + fuel + "l");
+        System.out.println("Weight: " + weight + "tn");
     }
 
     public static CarManualBuilder builder() {
