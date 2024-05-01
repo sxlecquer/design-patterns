@@ -26,7 +26,7 @@ public class Main {
 
         if(vehicle3 != vehicle4) {
             System.out.println("Mercedes buses are two different objects");
-            if (vehicle3.equals(vehicle4)) {
+            if(vehicle3.equals(vehicle4)) {
                 System.out.println("But they are identical");
             } else {
                 System.out.println("And they are not identical");
