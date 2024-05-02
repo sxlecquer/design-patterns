@@ -1,0 +1,8 @@
+package org.example.creational.abstract_factory.beef_burger;
+
+public class BeefAmericanBurger implements BeefBurger {
+    @Override
+    public void prepare() {
+        System.out.println("Beef american burger is ready!");
+    }
+}
