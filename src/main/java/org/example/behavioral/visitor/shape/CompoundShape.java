@@ -9,8 +9,8 @@ public class CompoundShape implements Shape {
     private final int id;
     private final List<Shape> children = new ArrayList<>();
 
-    public CompoundShape(int id, int id1) {
-        this.id = id1;
+    public CompoundShape(int id) {
+        this.id = id;
     }
 
     @Override
@@ -20,7 +20,7 @@ public class CompoundShape implements Shape {
 
     @Override
     public void draw() {
-        System.out.println("Drawing a circle!");
+        System.out.println("Drawing a compound shape!");
     }
 
     @Override
@@ -34,5 +34,9 @@ public class CompoundShape implements Shape {
 
     public int getId() {
         return id;
+    }
+
+    public List<Shape> getChildren() {
+        return children;
     }
 }
