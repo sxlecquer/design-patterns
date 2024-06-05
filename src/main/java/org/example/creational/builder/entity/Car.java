@@ -3,6 +3,7 @@ package org.example.creational.builder.entity;
 import org.example.creational.builder.enums.CarColor;
 import org.example.creational.builder.enums.CarType;
 
+@SuppressWarnings("unused")
 public class Car {
     private final CarType carType;
     private final String brand;
