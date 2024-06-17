@@ -85,7 +85,67 @@ The most universal and high-level patterns are *architectural patterns*.
 #
 
 ### 7. Proxy
-#### Lets us provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
+#### Lets us provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing us to perform something either before or after the request gets through to the original object.
 ![proxy](https://github.com/sxlecquer/design-patterns/assets/115950735/00aedcdc-024f-4561-89bd-bb5d74a308f7)
 
 ## Behavioral patterns
+
+### 1. Chain of Responsibility
+#### Lets us pass requests along a chain of handlers. <br> Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+![cor](https://github.com/sxlecquer/design-patterns/assets/115950735/ae89d8bf-5562-43dc-969b-b6d5b24f3234)
+
+#
+
+### 2. Command
+#### Turns a request into a stand-alone object that contains all information about the request. <br> This transformation lets us pass requests as a method arguments, delay or queue a request’s execution, and support undoable operations.
+![command](https://github.com/sxlecquer/design-patterns/assets/115950735/031613b4-ec0d-41af-9c4e-59fce8bd0a39)
+
+#
+
+### 3. Iterator
+#### Lets us traverse elements of a collection without exposing its underlying representation (list, stack, tree).
+![iterator](https://github.com/sxlecquer/design-patterns/assets/115950735/875693d8-4ddf-4d2a-929e-9e1668f1eff3)
+
+#
+
+### 4. Mediator
+#### Lets us reduce chaotic dependencies between objects. <br> The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
+![mediator](https://github.com/sxlecquer/design-patterns/assets/115950735/f74cd974-8efb-4448-8637-057164d90d69)
+
+#
+
+### 5. Memento
+#### Lets us save and restore the previous state of an object without revealing the details of its implementation.
+![memento](https://github.com/sxlecquer/design-patterns/assets/115950735/9b215bc8-8dba-4ea0-bde0-4f81d7a70808)
+
+#
+
+### 6. Observer
+#### Lets us define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+![observer](https://github.com/sxlecquer/design-patterns/assets/115950735/29ee4983-4214-43df-a073-7185cf990778)
+
+#
+
+### 7. State
+#### Lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
+![state](https://github.com/sxlecquer/design-patterns/assets/115950735/f208f209-2988-47fb-966f-4ee258ca5d6e)
+
+#
+
+### 8. Strategy
+#### Lets us define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+![strategy](https://github.com/sxlecquer/design-patterns/assets/115950735/049979e4-c15b-418c-8fbe-376f3ef68758)
+
+#
+
+### 9. Template Method
+#### Defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+![template_method](https://github.com/sxlecquer/design-patterns/assets/115950735/7fe588ae-487b-46e1-999d-01d9acc25a54)
+
+#
+
+### 10. Visitor
+#### Lets us separate algorithms from the objects on which they operate.
+![visitor](https://github.com/sxlecquer/design-patterns/assets/115950735/06a7ed55-471d-4e86-90b8-de21739d8cb3)
+
+#
